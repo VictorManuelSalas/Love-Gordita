@@ -14,51 +14,119 @@
 </head>
 
 <body>
-    <div style="background-image: url(https://us.123rf.com/450wm/kaisorn/kaisorn1702/kaisorn170200028/71804178-blur-cafeter%C3%ADa-o-restaurante-de-caf%C3%A9-con-resumen-bokeh-luz-de-imagen-de-fondo.jpg?ver=6); background-repeat: no-repeat; background-size: cover;" class="modal modal-signin position-static d-block  py-5" tabindex="-1" role="dialog"
-        id="modalSignin">
+    <div style="background-image: url(https://us.123rf.com/450wm/kaisorn/kaisorn1702/kaisorn170200028/71804178-blur-cafeter%C3%ADa-o-restaurante-de-caf%C3%A9-con-resumen-bokeh-luz-de-imagen-de-fondo.jpg?ver=6); background-repeat: no-repeat; background-size: cover;"
+        class="modal modal-signin position-static d-block  py-5" tabindex="-1" role="dialog" id="modalSignin">
         <header>
-            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
-              <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                  <img src="./img/Logotipo degradado estudio varios colores.png" alt="" width="70" height="60">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                  <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                    </li>
-        
-                    <li class="nav-item">
-                      <a class="nav-link " href="#">Manuel Salas</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link " href="./index.html">Login Out</a>
-                    </li>
-        
-                  </ul>
-                  <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary me-3" type="submit">Search</button>
-                  </form>
-                  <form class="d-flex">
-                    <a href="./carrito0.html">
-                      <button type="button" class="btn btn-secondary"
-                        data-bs-content="And here's some amazing content. It's very engaging. Right?" data-bs-toggle="popover"
-                        data-bs-placement="bottom" data-bs-content="Bottom popover">
-                        <i class="bi bi-cart-fill"></i>
-                      </button>
+            <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white ">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="./img/Logotipo degradado estudio varios colores.png" alt="" width="70" height="60">
                     </a>
-        
-                  </form>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link " href="#">Manuel Salas</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="./index.html">Login Out</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-primary me-3" type="submit">Search</button>
+                        </form>
+                       
+                    </div>
                 </div>
-              </div>
             </nav>
-          </header>
-       
+        </header>
+        <br><br><br>
+        <main>
+            <div class="card m-5">
+                <h5 class="card-header">Realizar Pedidos</h5>
+                <div class="card-body">
+                    <form class="row g-3">
+                        <div class="col-md-12">
+                          
+                            <label for="validationDefault04" class="form-label">Producto</label>
+                            <select class="form-select" id="validationDefault04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Gordita de Harina</option>
+                                <option>Gordita de Mazeca</option>
+                                <option>Sope</option>
+                                
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault04" class="form-label">Guisos</label>
+                            <select class="form-select" id="validationDefault04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Prensado</option>
+                                <option>Asado</option>
+                                <option>Arriero</option>
+                                <option>Mole</option>
+                                <option>Discada</option>
+                                <option>Chicharron</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault05" class="form-label">Cantidad de Producto</label>
+                            <input type="number" class="form-control" id="validationDefault05" required>
+                        </div>
+                        <div class="col-md-3">
+                          
+                            <label for="validationDefault04" class="form-label">Bebidas</label>
+                            <select class="form-select" id="validationDefault04" required>
+                                <option selected disabled value="">Choose...</option>
+                                <option>Agua de Mango</option>
+                                <option>Agua de Sandia</option>
+                                <option>Coca-cola</option>
+                                <option>Fanta</option>
+                                <option>Big-Cola</option>
+                                <option>Pepsi</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationDefault05" class="form-label">Cantidad de Bebidas</label>
+                            <input type="number" class="form-control" id="validationDefault05" required>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                <label class="form-check-label" for="invalidCheck2">
+                                    Este pedido se realizo correctamente por parte del usuario.
+                                </label>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Agregar al Carrito</button>
+                            <form class="d-flex">
+                                <a href="./carrito0.html">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-content="And here's some amazing content. It's very engaging. Right?"
+                                        data-bs-toggle="popover" data-bs-placement="bottom"
+                                        data-bs-content="Bottom popover">
+                                        <i class="bi bi-cart-fill"></i>
+                                    </button>
+                                </a>
+    
+                            </form>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
