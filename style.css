@@ -1,0 +1,18 @@
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ima img{
+    width: 300px;
+    height: 300px;
+}
+
+.card-title{
+    text-align: center;
+}
+.accordion:hover{
+    box-shadow: 0px 10px 10px black;
+}
